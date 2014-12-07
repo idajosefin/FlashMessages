@@ -1,0 +1,22 @@
+{
+    "name": "ider/flashmessages",    
+    "type": "library",
+    "description": "FlashMessages is a class to handle success, debug, warning and error messages. It's made for the framework Anax-MVC.",
+    "keywords": ["flash", "flashing", "messages", "status"],
+    "homepage": "http://idajosefin.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ida Eriksson",
+            "email": "info@idajosefin.com",
+            "homepage": "http://idajosefin.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "ider\\": "src/" }
+    }
+}
