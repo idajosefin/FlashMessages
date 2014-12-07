@@ -40,7 +40,6 @@ class FlashMessages{
 		}
 
 		$messages = $this->findAll();
-
 		$messages[] = [
 			"type" => $type, 
 			"content" => $content,
@@ -111,7 +110,6 @@ class FlashMessages{
 		}
 
 		$this->clean();
-
 		return $html;
 	}
 
