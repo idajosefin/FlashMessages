@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/pbjuhr/FlashMessages.svg?branch=master)](https://travis-ci.org/idajosefin/FlashMessages.svg?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/idajosefin/FlashMessages/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/idajosefin/FlashMessages/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/idajosefin/FlashMessages/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/idajosefin/FlashMessages/?branch=master)
 
 FlashMessages
 =============
