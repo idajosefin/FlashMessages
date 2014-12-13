@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pbjuhr/FlashMessages.svg?branch=master)](https://travis-ci.org/idajosefin/FlashMessages.svg?branch=master)
+
 FlashMessages
 =============
 
