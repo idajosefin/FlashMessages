@@ -10,7 +10,7 @@ namespace ider\FlashMessages;
 class FlashMessages {
 
 	use \Anax\DI\TInjectable;
-	public $sessionKey;
+	private $sessionKey;
 
 	/**
 	* Contructor, sets di
@@ -132,6 +132,7 @@ class FlashMessages {
 	* @return void
 	*/
 	public function clean() {
+		$sessionKey = "FlashMessages"; 
 		$this->session->set($sessionKey, NULL);
 	}
 
