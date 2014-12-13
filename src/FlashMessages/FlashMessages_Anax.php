@@ -10,7 +10,7 @@ namespace ider\FlashMessages;
 class FlashMessages {
 
 	use \Anax\DI\TInjectable;
-	private $sessionKey;
+	public $sessionKey;
 
 	/**
 	* Contructor, sets di
