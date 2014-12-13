@@ -20,6 +20,15 @@ class FlashMessages {
 		$this->$sessionKey = $sessionKey;
 	}
 
+	/**
+	* Resets the flash message session
+	* @return void
+	*/
+	public function clean() {
+	$sessionKey = "FlashMessages";
+	$this->session->set($sessionKey, NULL);
+	}
+
 
 	/**
 	* Gets the session key
@@ -128,12 +137,4 @@ class FlashMessages {
 		return $html;
 	}
 
-	/**
-	* Resets the flash message session
-	* @return void
-	*/
-	public function clean() {
-	$sessionKey = "FlashMessages";
-	$this->session->set($sessionKey, NULL);
-	}
 }
