@@ -66,8 +66,8 @@ class FlashMessages {
 	 * @param $content (required), the message
 	 * @return void
 	 */
-	public function addSuccess($content) {
-		$this->add($content, "success");
+	public function addSuccess($content){
+		$this->add("success", $content);
 	}
 
 
@@ -76,8 +76,8 @@ class FlashMessages {
 	 * @param $content (required), the message
 	 * @return void
 	 */
-	public function addInfo($content) {
-		$this->add($content, "info");
+	public function addInfo($content){
+		$this->add("info", $content);
 	}
 
 
@@ -86,8 +86,8 @@ class FlashMessages {
 	 * @param $content (required), the message
 	 * @return void
 	 */
-	public function addWarning($content) {
-		$this->add($content, "warning");
+	public function addWarning($content){
+		$this->add("warning", $content);
 	}
 
 
@@ -96,8 +96,8 @@ class FlashMessages {
 	 * @param $content (required), the message
 	 * @return void
 	 */
-	public function addError($content) {
-		$this->add($content, "error");
+	public function addError($content){
+		$this->add("error", $content);
 	}
 
 
